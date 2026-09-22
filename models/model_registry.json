@@ -1,0 +1,112 @@
+[
+    {
+        "disease": "Breast Cancer",
+        "dataset": "Breast Cancer Wisconsin Diagnostic",
+        "model": "SVM",
+        "version": "1.0",
+        "pca_components": 4,
+        "qubits": 0,
+        "metrics": {
+            "Accuracy": 0.9473684210526315,
+            "Sensitivity": 0.8809523809523809,
+            "Specificity": 0.9861111111111112,
+            "Precision": 0.9736842105263158,
+            "F1": 0.925,
+            "ROC-AUC": 0.9966931216931216,
+            "Training Time (s)": 0.04853034019470215,
+            "Qubits": 0,
+            "Model": "SVM"
+        },
+        "training_time_seconds": 0.0485,
+        "created_at": "2026-09-22 21:55:50",
+        "status": "Active Prototype"
+    },
+    {
+        "disease": "Breast Cancer",
+        "dataset": "Breast Cancer Wisconsin Diagnostic",
+        "model": "Random Forest",
+        "version": "1.0",
+        "pca_components": 4,
+        "qubits": 0,
+        "metrics": {
+            "Accuracy": 0.956140350877193,
+            "Sensitivity": 0.9047619047619048,
+            "Specificity": 0.9861111111111112,
+            "Precision": 0.9743589743589743,
+            "F1": 0.9382716049382716,
+            "ROC-AUC": 0.9955357142857143,
+            "Training Time (s)": 0.8023240566253662,
+            "Qubits": 0,
+            "Model": "Random Forest"
+        },
+        "training_time_seconds": 0.8023,
+        "created_at": "2026-09-22 21:55:52",
+        "status": "Active Prototype"
+    },
+    {
+        "disease": "Breast Cancer",
+        "dataset": "Breast Cancer Wisconsin Diagnostic",
+        "model": "XGBoost",
+        "version": "1.0",
+        "pca_components": 4,
+        "qubits": 0,
+        "metrics": {
+            "Accuracy": 0.9473684210526315,
+            "Sensitivity": 0.8809523809523809,
+            "Specificity": 0.9861111111111112,
+            "Precision": 0.9736842105263158,
+            "F1": 0.925,
+            "ROC-AUC": 0.9914021164021164,
+            "Training Time (s)": 2.954023838043213,
+            "Qubits": 0,
+            "Model": "XGBoost"
+        },
+        "training_time_seconds": 2.954,
+        "created_at": "2026-09-22 21:55:53",
+        "status": "Active Prototype"
+    },
+    {
+        "disease": "Breast Cancer",
+        "dataset": "Breast Cancer Wisconsin Diagnostic",
+        "model": "QSVM",
+        "version": "1.0",
+        "pca_components": 4,
+        "qubits": 4,
+        "metrics": {
+            "Accuracy": 0.6228070175438597,
+            "Sensitivity": 0.19047619047619047,
+            "Specificity": 0.875,
+            "Precision": 0.47058823529411764,
+            "F1": 0.2711864406779661,
+            "ROC-AUC": NaN,
+            "Training Time (s)": 134.57643938064575,
+            "Qubits": 4,
+            "Model": "QSVM"
+        },
+        "training_time_seconds": 134.5764,
+        "created_at": "2026-09-22 22:05:13",
+        "status": "Active Prototype"
+    },
+    {
+        "disease": "Breast Cancer",
+        "dataset": "Breast Cancer Wisconsin Diagnostic",
+        "model": "VQC",
+        "version": "1.0",
+        "pca_components": 4,
+        "qubits": 4,
+        "metrics": {
+            "Accuracy": 0.5350877192982456,
+            "Sensitivity": 0.47619047619047616,
+            "Specificity": 0.5694444444444444,
+            "Precision": 0.39215686274509803,
+            "F1": 0.43010752688172044,
+            "ROC-AUC": 0.5008267195767195,
+            "Training Time (s)": 212.80057907104492,
+            "Qubits": 4,
+            "Model": "VQC"
+        },
+        "training_time_seconds": 212.8006,
+        "created_at": "2026-09-22 22:05:16",
+        "status": "Active Prototype"
+    }
+]

@@ -1,0 +1,5 @@
+Feature,Importance,Model
+PCA Component 1,0.7101746224653718,Random Forest
+PCA Component 2,0.13395239429501019,Random Forest
+PCA Component 3,0.10559215346946288,Random Forest
+PCA Component 4,0.05028082977015508,Random Forest
